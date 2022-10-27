@@ -4,15 +4,15 @@ $(function(){
     return false;
   });
   
-  $('#music').click(function(){
+  $('#rookie').click(function(){
     $('.item').show();
-    $('.item').not('.music').hide();
+    $('.item').not('.rookie').hide();
     return false;
   });
   
-  $('#videos').click(function(){
+  $('#junior').click(function(){
     $('.item').show();
-    $('.item').not('.video').hide();
+    $('.item').not('.junior').hide();
     return false;
   });
   
